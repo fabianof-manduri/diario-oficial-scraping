@@ -2,7 +2,7 @@
 PROBLEMÁTICA
 =====================================================================================================================
 Foi constatado a necessidade de realizar a importação dos arquivos e informações enviadas ao diário oficial de Riversul. No entanto ocorreu a problemática em que nossa equipe não tinha acesso ao banco de dados da empresa cedida. Devido a isso, foi necessário realizar um webscraping.
-Pois bem, realizei um webscraping em Python, onde o mesmo realiza a ação de entrar no endereço www.teste.com e realizar a leitura de informações pertinentes realizando uma varredura em todas as páginas. (página a página).
+Pois bem, realizei um webscraping em Python, onde o mesmo realiza a ação de entrar no endereço https://diariooficialnovo.jelastic.saveincloud.net/paginas/public/diario_externo.xhtml?idCidade=69 e realizar a leitura de informações pertinentes realizando uma varredura em todas as páginas. (página a página).
 Obtém o link do arquivo de cada publicação, com as informações da publicação, tais como número, título, conteúdo e data de publicação, nosso robô realiza download dos arquivos em PDF, posteriormente armazena as informações citadas acima em um banco instanciado nas dependências do SQL Server.
 No momento em que é realizada a leitura/download é gerado um json com as informações coletadas.
 Obs.: O robô realiza a coleta de informações (top-down), de cima a baixo em todas as páginas.

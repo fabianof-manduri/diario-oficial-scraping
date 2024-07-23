@@ -1,5 +1,5 @@
-#FORMAS DE UTILIZAÇÃO
-
+====================================================================================================================
+||            #FORMAS DE UTILIZAÇÃO
 =====================================================================================================================
 Para realizar o scraping das informações do portal da transparência de Riversul primeiro crie um ambiente virtual.
 Obs.: o ambiente virtual já está criado e encontra-se em .venv/Scripts/
